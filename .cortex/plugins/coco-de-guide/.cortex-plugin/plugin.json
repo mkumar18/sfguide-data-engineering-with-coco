@@ -1,0 +1,9 @@
+{
+  "name": "coco-de-guide",
+  "version": "1.0.0",
+  "description": "Skills, agents, and hooks for the Snowflake data engineering with CoCo guide",
+  "author": { "name": "me" },
+  "skills": ["./skills"],
+  "agents": ["./agents"],
+  "hooks": "./hooks/hooks.json"
+}

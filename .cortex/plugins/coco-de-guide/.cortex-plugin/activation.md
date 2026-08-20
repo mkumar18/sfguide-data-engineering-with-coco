@@ -1,0 +1,1 @@
+This plugin provides project-specific extensions for the Snowflake data engineering with CoCo guide, including skills for creating dbt models, subagents for specialized tasks, and hooks for workflow automation.
