@@ -49,3 +49,21 @@ models:
       - name: total_quantity
         tests:
           - not_null
+
+  - name: supplier_performance
+    description: Performance metrics per supplier aggregated from line items
+    columns:
+      - name: supplier_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+      - name: supplier_name
+        tests:
+          - not_null
+      - name: total_orders
+        tests:
+          - not_null
+      - name: total_revenue
+        tests:
+          - not_null
